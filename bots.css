@@ -1,0 +1,91 @@
+body{
+    
+    background-image: url(./coci.jpeg);
+    background-size: cover;
+   
+}
+header li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+header li a:hover{
+    color: darkgrey;
+
+}
+header h1{
+    color: blue;
+    text-align: center;
+    font-size: 35px;
+}
+#menu{
+    background-color: black ;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a:hover{
+    background-color: #42b881;
+}
+#menu ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding:20px 60px;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.conteiner{ 
+   
+    width: 100%;
+   display: flex;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  
+    
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.co{
+    
+    margin: 100px;
+    width: 650px;
+}
+    
+.card-img{
+    width: 280px;
+    height: 180px;
+}
+
+   
+
+
+@media (max-width: 400px){
+    .co{
+        flex-direction: column;
+        text-align:start;
+     margin: initial;    }   
+    }
+    .centrado{
+        flex-direction: column;
+        text-align: center;
+        margin: initial;
+        
+    }
+

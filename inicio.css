@@ -1,0 +1,89 @@
+header li {
+    list-style: none;
+}
+header li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+header li a:hover{
+    color:darkgrey;
+}
+header h1{
+   
+        color: blue;
+        text-align: center;
+        font-size: 35px;
+
+}
+body{
+    background-image: url(./coci.jpeg);
+    background-size: cover;
+}
+.conteiner{
+    
+   margin: 0 auto;
+ 
+    display: grid;
+   
+    height: 900px;
+    text-align: center;
+}
+.r{
+    border: 2px black solid;
+    display: flex;
+   gap: 20px;
+}
+.one{
+   
+    border: 2px black solid;
+    width: 33.33%;  
+text-align:justify;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: inherit;
+}
+.tow{
+    border: 2px black solid;
+width: 33.33%;
+
+}
+.tree{
+    border: 2px black solid;
+    width:33.33%;
+    height: 500px;
+}
+@media (max-width: 600px){
+.conteiner{
+    
+    text-align:start;
+ margin: initial; 
+}
+.uno{
+    text-align:start;
+    margin: initial; 
+}
+}
+#menu{
+    background-color: black;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li {
+    display: inline-block; 
+}
+#menu ul li a{
+    color:white;
+    display: block;
+    padding: 20px 60px;
+    text-decoration: none;  
+}
+#menu ul li a:hover{
+    background-color: #42b881;
+
+}
+#na{
+    background-color: lemonchiffon;
+}
