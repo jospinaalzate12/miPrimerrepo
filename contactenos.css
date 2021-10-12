@@ -23,9 +23,9 @@ header a:hover{
 }
 .di{
     background: black;
-    height: 500px;
+    height: 450px;
     width: 450px;
-    top: 50%;
+    top: 45%;
     left: 50%;
     position: absolute;
     transform: translate(-30%, -30%);
@@ -67,4 +67,18 @@ ul li a{
 }
 ul li a:hover{
     background-color: #42b881;
+}
+@media screen and (max-width: 800px){
+    .di{
+        background: black;
+    height: 450px;
+    width: 400px;
+    top: 50%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-20%, -20%);
+    padding: 70px 30px;
+   box-sizing: border-box;
+   color: #fff;
+    }
 }

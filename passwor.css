@@ -68,3 +68,18 @@ div input[type="submit"]{
     font-size: 18px;
     border-radius: 20px;
 }
+@media screen and (max-width: 700px){
+    div{
+        background: black;
+    height: 380px;
+    width: 220px;
+    background: #000;
+    color: #fff;
+    top: 30%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-50%, -30%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    }
+}

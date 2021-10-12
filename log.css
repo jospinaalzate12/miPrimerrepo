@@ -41,7 +41,7 @@ body{
     width: 320px;
     background: #000;
     color: #fff;
-    top: 50%;
+    top: 60%;
     left: 50%;
     position: absolute;
     transform: translate(-30%, -30%);
@@ -107,4 +107,18 @@ header h1{
     text-align: center;
     font-size: 30px;
 
+}
+@media screen and (max-width: 700px){
+    .login{
+    height: 400px;
+    width: 220px;
+    background: #000;
+    color: #fff;
+    top: 65%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-30%, -10%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
 }

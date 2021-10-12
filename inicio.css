@@ -16,6 +16,12 @@ header h1{
         font-size: 35px;
 
 }
+.con{
+    color: blue;
+}
+.ti{
+    color: blue;
+}
 body{
     background-image: url(./coci.jpeg);
     background-size: cover;
@@ -26,37 +32,51 @@ body{
  
     display: grid;
    
-    height: 900px;
+    height: auto;
     text-align: center;
 }
+.im{
+    width: 100%;
+    height: auto;
+}
+.img{
+width: 100%;
+height: auto;
+}
 .r{
-    border: 2px black solid;
+    
     display: flex;
    gap: 20px;
 }
 .one{
    
-    border: 2px black solid;
-    width: 33.33%;  
+   color: white;
+    width: 40%;  
 text-align:justify;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: inherit;
 }
 .tow{
-    border: 2px black solid;
-width: 33.33%;
+    
+width: 30%;
 
 }
 .tree{
-    border: 2px black solid;
-    width:33.33%;
-    height: 500px;
+    
+    width:30%;
+    
 }
-@media (max-width: 600px){
+@media screen and (max-width: 700px){
 .conteiner{
     
     text-align:start;
  margin: initial; 
+}
+.co{
+    width: 100%;
+}
+.ti{
+    width: 100%;
 }
 .uno{
     text-align:start;
