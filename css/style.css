@@ -1,0 +1,38 @@
+
+.Padre {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: orangered;
+  
+}
+.Hijos1 {
+    background-color: blue;
+    border: 10px solid red; 
+    width: 1000px;
+    height: 80px;
+    align-self:auto;
+    
+
+}
+.Hijos2 {
+    background-color: blue;
+    border: 10px solid green; 
+    width: 100px;
+    height: 80px;
+}
+.Hijos3 {
+        background-color: blue;
+        border: 10px solid black; 
+        width: 200px;
+        height: 80px;
+        flex-grow: 10;
+        
+}    
+.Hijos4 {
+            background-color: blue;
+            border: 10px solid orange; 
+            width: 800px;
+            height: 80px;
+            
+}

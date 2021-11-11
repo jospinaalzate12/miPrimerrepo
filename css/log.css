@@ -1,0 +1,131 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/fondo.jpeg");
+   
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+header .container nav a:hover{
+    color: darkgrey;
+
+}
+
+header{
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+}
+header .container nav a{
+    color: red;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 25px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;/*ayuda a que el el menu se vaya a la derecha*/
+    
+}
+header .container .logo{
+    width: 100px;
+    height: 60px;
+}
+header .container ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.login{
+    height: 420px;
+    width: 320px;
+    
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-60%, -30%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.login .in{
+width: 100px;
+height: 100px;
+position: absolute;
+top: -50px;
+left:calc(50% -50%) ;
+}
+.login h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+
+}
+.login input{
+    width: 100%;
+    margin-bottom: 20px ;
+}
+.login input[type="text"],
+.login input[type="password"]{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login input[type="submit"]{
+    border:none;
+    outline: none;
+    height: 40px;
+    background: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+
+.login a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.login a:hover{
+    color: #fff;
+}
+
+
+@media screen and (max-width: 700px){
+    .login{
+    height: 400px;
+    width: 220px;
+    background: #000;
+    color: #fff;
+    top: 65%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-30%, -10%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+}

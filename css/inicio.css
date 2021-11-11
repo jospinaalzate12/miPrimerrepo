@@ -1,0 +1,108 @@
+body{
+    background-image: url('../img/fondo.jpeg');
+    background-size:auto;
+}
+header .container nav a:hover{
+    color: darkgrey;
+
+}
+
+header{
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+}
+header .container nav a{
+    color: red;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 25px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;/*ayuda a que el el menu se vaya a la derecha*/
+    
+}
+header .container .logo{
+    width: 100px;
+    height: 60px;
+}
+header .container ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.one{
+   
+    color:red;
+    padding: 150px 300px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.one p{
+    width: 100%;
+}
+.tow{
+    
+width: 30%;
+
+}
+.tree{
+    
+    width:30%;
+    
+}
+@media screen and (max-width: 700px){
+.conteiner{
+    
+    text-align:start;
+ margin: initial; 
+}
+.co{
+    width: 100%;
+}
+.ti{
+    width: 100%;
+}
+.uno{
+    text-align:start;
+    margin: initial; 
+}
+}
+#menu{
+    background-color: black;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li {
+    display: inline-block; 
+}
+#menu ul li a{
+    color:white;
+    display: block;
+    padding: 20px 60px;
+    text-decoration: none;  
+}
+#menu ul li a:hover{
+    background-color: #42b881;
+
+}
+#na{
+    background-color: lemonchiffon;
+}

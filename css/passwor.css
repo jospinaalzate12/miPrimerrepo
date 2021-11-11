@@ -1,0 +1,128 @@
+body{
+  
+    background-image: url(../img/fondo.jpeg);
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+header .container nav a:hover{
+    color: darkgrey;
+
+}
+
+header{
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+}
+header .container nav a{
+    color: red;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 25px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;/*ayuda a que el el menu se vaya a la derecha*/
+    
+}
+header .container .logo{
+    width: 100px;
+    height: 60px;
+}
+header .container ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.recu{
+   
+    height: 290px;
+    width: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-30%, -30%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.recu a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: white
+}
+.recu a:hover{
+    color: darkgrey;
+}
+.recu img{
+    width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: -50px;
+left:calc(50% -50%) ;
+}
+ .ema{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.recu h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.recu label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.recu input{
+    width: 100%;
+    margin-bottom: 20px ;
+}
+.recu input[type="text"]{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.recu input[type="submit"]{
+    border:none;
+    outline: none;
+    height: 40px;
+    background: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+@media screen and (max-width: 700px){
+    div{
+        background: black;
+    height: 380px;
+    width: 220px;
+    background: #000;
+    color: #fff;
+    top: 30%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-50%, -30%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    }
+}
